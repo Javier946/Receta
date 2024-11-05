@@ -1,0 +1,65 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Encabezados */
+h1 {
+    font-size: 2em;
+    color: #222;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+/* Listas */
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+}
+
+/* Tips */
+.tips {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-left: 4px solid #b2dfdb;
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Estilos para la imagen */
+.imagenensalada {
+    width: 75%;            
+    max-width: 100%;         
+    height: auto;            
+    border-radius: 10px;     
+    display: block;          
+    margin: 20px auto;      
+}
